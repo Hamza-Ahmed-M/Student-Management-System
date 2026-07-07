@@ -7,12 +7,21 @@
     <body>
         <h1>ManagePro</h1>
         <p>welcome to school managment system</p>
-        <form>
-        <button>
-            submit
+        
+        <button id="loginbutton">
+            login
         </button>
 
-        </form>
+        
     </body>
+
+    <script>
+        loginbutton=document.getElementById("loginbutton");
+        loginbutton.addEventListener("click", login);
+
+        function login(){
+            alert("Welcome!")
+        }
+    </script>
 
 </html>
